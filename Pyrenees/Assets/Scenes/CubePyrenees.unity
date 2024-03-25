@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1277.1749, g: 1542.2834, b: 2327.6858, a: 1}
+  m_IndirectSpecularColor: {r: 1277.1749, g: 1542.4124, b: 2327.6936, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 77715624}
   - component: {fileID: 77715623}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Sea sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1063,7 +1063,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 978a3b512e54d494191d445e83ecfbcb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.038181305
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 978a3b512e54d494191d445e83ecfbcb,
         type: 3}
@@ -1173,7 +1173,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 978a3b512e54d494191d445e83ecfbcb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1129496810705857465, guid: 978a3b512e54d494191d445e83ecfbcb,
         type: 3}
@@ -1494,13 +1494,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 506189335}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3051796, y: -0.018231837, z: -0.0060265353, w: -0.95210123}
-  m_LocalPosition: {x: -122.96434, y: 250.68492, z: -8.847065}
+  m_LocalRotation: {x: 0.26739362, y: 0.036150653, z: 0.06331447, w: -0.96082526}
+  m_LocalPosition: {x: -122.96434, y: 252.38, z: -8.847065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -31.226, y: -2.387, z: -6.873}
 --- !u!1 &1025793617
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,13 +2034,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227133821}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.27136335, y: 0.5357408, z: 0.18676029, w: -0.7774731}
+  m_LocalRotation: {x: 0.25889668, y: 0.5354203, z: 0.17697103, w: -0.7842059}
   m_LocalPosition: {x: -3.3026726, y: 40.64466, z: -392.77432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -36.553, y: -68.639, z: -0.023}
 --- !u!1 &1358339571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2359,7 +2359,7 @@ GameObject:
   - component: {fileID: 1670751834}
   - component: {fileID: 1670751833}
   m_Layer: 0
-  m_Name: Audio Source (1)
+  m_Name: Rock sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3033,8 +3033,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.028368063, y: -0.9104082, z: 0.06317778, w: -0.4078735}
-  m_LocalPosition: {x: -129.8172, y: -78.254684, z: 47.22428}
+  m_LocalRotation: {x: -0.024547081, y: -0.91660404, z: 0.05776973, w: -0.39483806}
+  m_LocalPosition: {x: 27.13858, y: 61.363487, z: -1117.077}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3324,17 +3324,17 @@ PrefabInstance:
     - target: {fileID: 3794406596877044609, guid: bbd73a8ef4621234ba5c7af487e1c5be,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -85.1
+      value: 78.5
       objectReference: {fileID: 0}
     - target: {fileID: 3794406596877044609, guid: bbd73a8ef4621234ba5c7af487e1c5be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.3
+      value: 53.2
       objectReference: {fileID: 0}
     - target: {fileID: 3794406596877044609, guid: bbd73a8ef4621234ba5c7af487e1c5be,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1169.5
       objectReference: {fileID: 0}
     - target: {fileID: 3794406596877044609, guid: bbd73a8ef4621234ba5c7af487e1c5be,
         type: 3}
@@ -3394,16 +3394,16 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1823688467}
+  - {fileID: 1227133824}
+  - {fileID: 506189338}
   - {fileID: 157207114}
+  - {fileID: 1130148749}
   - {fileID: 432432461}
   - {fileID: 2013410475}
   - {fileID: 1202348396}
+  - {fileID: 854752784996764794}
   - {fileID: 409185275}
   - {fileID: 435363897}
   - {fileID: 77715624}
   - {fileID: 1670751834}
-  - {fileID: 854752784996764794}
   - {fileID: 489576470}
-  - {fileID: 1227133824}
-  - {fileID: 506189338}
-  - {fileID: 1130148749}
