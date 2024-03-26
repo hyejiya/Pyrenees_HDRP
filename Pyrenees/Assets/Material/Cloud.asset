@@ -1,27 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6270048010359240752
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a76fd08475e21554b8f284f723dd7cf8, type: 3}
-  m_Name: WaterRendering
-  m_EditorClassIdentifier: 
-  active: 0
-  enable:
-    m_OverrideState: 1
-    m_Value: 1
-  triangleSize:
-    m_OverrideState: 0
-    m_Value: 100
-  ambientProbeDimmer:
-    m_OverrideState: 0
-    m_Value: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37,7 +15,6 @@ MonoBehaviour:
   components:
   - {fileID: 5091711416631233768}
   - {fileID: 7103128358976399240}
-  - {fileID: -6270048010359240752}
 --- !u!114 &5091711416631233768
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -61,11 +38,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   windOrientation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 360
   windSpeed:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1000
   fogType:
     m_OverrideState: 0
     m_Value: 0
@@ -90,7 +67,7 @@ MonoBehaviour:
     m_Value: 0
   earthCurvature:
     m_OverrideState: 1
-    m_Value: 0.465
+    m_Value: 0.436
   cloudTiling:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1}
@@ -324,7 +301,7 @@ MonoBehaviour:
       additiveValue: 0
       multiplyValue: 1
   orientation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value:
       mode: 1
       customValue: 0
